@@ -17,10 +17,12 @@ body{
 /* ヘッダー */
 header{
   width: 100%;
-  /* background-color: #d0e4f3; */
+  background-color: rgba(43, 153, 236, 0.5);
   position: fixed;
   top: 0;
   right: 0;
+  height: 90px;
+  z-index: 999;
 }
 
 #top-tag{
@@ -978,6 +980,7 @@ footer{
   .goodPoints p{
     width: 100%;
     font-size: 15px;
+    text-align: center;
   }
   .goodPoints{
     padding: 30px auto;

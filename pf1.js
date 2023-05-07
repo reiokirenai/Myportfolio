@@ -19,7 +19,7 @@ window.addEventListener("scroll",function(){
 // スクロールして画面内遷移
 $(function(){
     $('#top-tag a[href^="#"]').click(function(){ //#top-tagで初期位置を制定
-        var adjust = -70; //移動先位置の調整
+        var adjust = -85; //移動先位置の調整
         var speed = 400; //スクロール速度m秒
         var href= $(this).attr("href"); //リンク先を取得してhrefに代入
         var target = $(href == "#" || href == "" ? 'html' : href);
